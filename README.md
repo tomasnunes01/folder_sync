@@ -29,4 +29,5 @@ This Python script performs one-way folder synchronization, maintaining a full c
 
 This example will synchronize the source with the replica every 60 seconds and log operations to 'log.txt':
 
-python3 main.py -s /Users/test/Source -r /Users/test/Replica -l /Users/test/Desktop/log.txt -t 60
+```sh
+python3 main.py -s /path/to/source -r /path/to/replica -l /path/to/log.txt -t 60
